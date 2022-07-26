@@ -1,0 +1,42 @@
+/* Combinador de descendientes */
+/* Aplica al hijo .lista que este dentro de cualquier
+    descendiente .listas sin importar el nivel */
+.listas .lista{
+    text-decoration: underline;
+}
+
+.todo .lista{
+    list-style: decimal;
+}
+
+.dias .lista{
+    list-style: none;
+}
+
+/* Combinador de hijos directos */
+.listas > .lista{
+    list-style: upper-roman;
+}
+
+.dias > .lista{
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Combinador de hermano adyacente */
+/* Se puede especificar el hermano especificamente:
+.subtitulo + .parrafo{
+    background-color: yellow;
+}
+*/
+.subtitulo + *{
+    background-color: yellow;
+}
+
+/* COMBINADOR DE HERMANOS GENERALES
+    Que sean hermanos  */
+
+/* .subtitulo ~ .parrafo{
+    background-color: aqua;
+} */

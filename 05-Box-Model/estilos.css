@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia;
+}
+
+.card{
+    background-color: royalblue;
+    color: white;
+    width: 300px;
+    /* limitar el ancho maximo o minimo */
+    /* max-width: 600px;
+    min-width: 200px; */
+    /* height: auto;
+    min-height: 300px;
+    overflow: auto; */
+
+    /* padding */
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px; */
+
+    padding: 15px 45px;
+
+    /* border: 3px solid black; */
+
+
+    /* border-width: 20px 50px; */
+    /* border-top-width: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 5px;
+    border-left-width: 5px; */
+
+    
+    /* border-style: dotted dashed double solid; */
+
+    /* border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: double;
+    border-left-style: solid; */
+
+
+    /* border-color: crimson black yellow purple; */
+
+    /* border-color: black;
+    border-top-color: crimson;
+    border-right-color: black;
+    border-bottom-color: yellow;
+    border-left-color: purple; */
+
+    /* border-top: 5px solid crimson;
+    border-right: 5px solid coral;
+    border-bottom: 5px solid greenyellow;
+    border-left: 5px solid forestgreen; */
+
+    border: 5px solid chocolate;
+}
+
+
+.card{
+    width: 300px;
+    height: 300px;
+    padding: 45px;
+    border: 5px solid chocolate;
+}
+
+
+.card--one{
+    /* margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    margin-left: 10px; */
+
+    /* margin: 50px 30px 70px 10px; */
+
+    /* margin: 50px; */
+    margin-right: auto;
+    margin-left: auto;
+
+    /* O bien: */
+    margin: 0 auto;
+}
+
+.card__title{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.card__paragraph{
+    margin-bottom: 30px;
+}
+
+
+.main{
+    background-color: steelblue;
+    color: white;
+    /* padding: 0.1px; */
+    border: 0.1px solid transparent;
+}
+
+.main__title{
+    margin-top: 50px;
+}
+
+.footer{
+    background-color: slateblue;
+    color: white;
+}

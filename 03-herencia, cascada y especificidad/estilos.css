@@ -1,0 +1,32 @@
+/* Se aplicaran los estilos declarados */
+/* Prioridad:
+    3. 
+    2. Cascada
+    1. Especifidad (Se aplicara el mayor) 
+    !important
+    */
+    
+/* Herencia */
+
+body{
+    border: 3px solid orange;
+    font-family: cursive;
+    color: steelblue;
+}
+
+/* inherit para heredar del padre */
+.title{
+    border: inherit;
+}
+
+input{
+    font-size: 25px;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* 
+
+
+
+*/

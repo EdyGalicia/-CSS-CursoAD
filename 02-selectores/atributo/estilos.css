@@ -1,0 +1,16 @@
+/* Aplicar a elementos segun sus atributos.
+     */
+
+[value]{
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* Filtros selector de atributos:
+    Min 35
+    https://youtu.be/ajmd8J0Uf0Q */
+
+[value*="cursocss.com"]{
+    background-color: yellow;
+}
