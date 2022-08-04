@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.container{
+    margin: 50px auto;
+    width: 90%;
+    height: 500px;
+    background-color: #723cd6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(255, 0, 0, 0.657)), url('./imagen.jpg');
+
+    /* background-repeat: no-repeat; */
+    /* top left right bottom center */
+    /* background-position: center; */
+
+    /*  cover: la imagen va a cubrir al elemento
+        contain: ajusta la imagen al elemento */
+    /* background-size: ancho alto; */
+    /* background-size: 10px 50px; */
+    background-size: cover;
+
+    color: white;
+    text-align: center;
+    padding: 200px;
+}
+
+/* .title{
+    font-size: 42px;
+    color: hsl(hue, saturation, lightness);
+} */
